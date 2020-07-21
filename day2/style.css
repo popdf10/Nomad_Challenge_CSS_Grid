@@ -1,0 +1,94 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color: #f6f6f6;
+  padding: 50px 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 770px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #f4f5f3;
+  width: 700px;
+  height: 850px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 30px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px black solid;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.header .header__left {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.header .header__right {
+  align-self: flex-end;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 12px;
+  margin-bottom: 50px;
+}
+
+.description__left {
+  display: flex;
+}
+
+.description .description__first {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.description .description__second {
+  display: flex;
+  flex-direction: column;
+}
+.description .description__third {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.content-row__content {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+}
+
+.row1 .content-row__content {
+  background-color: #bce0f1;
+}
+
+.row2 .content-row__content {
+  background-color: #616365;
+}
+
+.row3 .content-row__content {
+  background-color: #03a364;
+}
